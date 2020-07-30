@@ -1,0 +1,10 @@
+if ((button.isRed() == false))
+                        {
+                            button.setRed(true);
+                            button.getButton().setStyle("-fx-background-color: #dcdcdc; ");
+                        }
+                        else
+                        {
+                            button.setRed(false);
+                            button.getButton().setStyle("-fx-background-color: #ffffdc; ");
+                        }

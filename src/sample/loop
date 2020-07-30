@@ -1,0 +1,29 @@
+while (height > -100)
+{
+    for (GridButton b : buttons)
+    {
+        if (b.getHeightPosition() == height)
+        {
+            if ((b.hasBomb == false) && (countAdjacent < 5))
+            {
+                b.setStyle("-fx-background-color: #dcdcdc; ");
+            }
+        }
+    }
+    height -= 30
+    countAdjacent ++;
+}
+
+
+countAdjacent = 0;
+while (height < 250)
+{
+    for (GridButton b : buttons)
+    {
+        if (b.getHeightPosition() == height)
+        {
+            GridButton gb = b;
+
+        }
+    }
+}

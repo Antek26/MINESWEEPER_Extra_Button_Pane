@@ -1,0 +1,10 @@
+
+^
+java:S1226H"HIntroduce a new variable instead of reusing the parameter "selectScene".(µÒ®ò
+k
+java:S1450"URemove the "button" field and declare it as a local variable in the relevant methods.(÷Ëİ¥
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(—êˆøûÿÿÿÿ
+\
+java:S1117+":Rename "button" which hides the field declared at line 15.(‘ØîÜøÿÿÿÿ8åÇ¥Ş¸.
+N
+java:S1602.",Remove useless curly braces around statement(ÒÌâ–øÿÿÿÿ8åÇ¥Ş¸.
